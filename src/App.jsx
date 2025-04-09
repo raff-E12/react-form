@@ -1,5 +1,6 @@
 import './App.css'
 import Cards from './assets/Cards'
+import ContentCards from './assets/ContentCards'
 
 function App() {
   return (
@@ -11,7 +12,7 @@ function App() {
       </div>
     </header>
     <div className='container p-4 overflow-box'>
-      <Cards />
+      <ContentCards />
     </div>
     </>
   )

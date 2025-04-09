@@ -7,8 +7,21 @@ export default function Cards() {
       <>
         {IsNews.map(element => {
             return(
-              <div className='cards'>
-                <h2>{element.titolo}</h2>
+              <div className='cards' key={element.id}>
+                <div className='box-img-card d-flex'>
+                  <h3>News</h3>
+                </div>
+                <div className='text-card d-flex'>
+                  <h4>{element.titolo}</h4>
+                  <p>{element.riassunto}</p>
+                </div>
+                <div className='tags d-flex p-2'>
+                    {element.tag.map( tags => {
+                      return(
+                        <p className='tag'>#{tags}</p>
+                      )
+                    })}
+                  </div>
               </div>
             )
         })}

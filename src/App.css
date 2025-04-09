@@ -5,7 +5,7 @@
 
 #root {
   width: 100%;
-  border: 2px solid red;
+  background-color: var(--gray);
   display: flex;
   align-items: center;
   justify-content: flex-start;
@@ -37,11 +37,67 @@
 }
 
 .content-cards{
-  border: 2px solid red;
+  gap: 10px;
+  width: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 30px;
+  justify-content: center;
 }
 
 .cards{
-  border: 2px solid red;
+  width: 390px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.box-img-card{
+  width: auto;
+  height: 180px;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--warning);
+  color: var(--light);
+  text-transform: uppercase;
+  text-decoration: underline;
+}
+
+.text-card{
+  width: auto;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  padding: 12px;
+  color: var(--light);
+  background-color: var(--secondary);
+}
+
+.text-card h4, .text-card p{
+  width: 90%;
+}
+
+.tags.d-flex{
+  width: 100%;
+  background-color: var(--secondary);
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding: 12px;
+}
+
+.tag{
+  width: auto;
+  background-color: var(--blue);
+  color: var(--light);
+  padding: 7px;
+  border-radius: 10px;
+  text-transform: capitalize;
+  font-weight: 700;
 }
 
 /***** End Css Styles Sections *****/
