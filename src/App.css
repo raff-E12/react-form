@@ -51,6 +51,27 @@
   width: 390px;
   border-radius: 10px;
   overflow: hidden;
+  position: relative;
+}
+
+.cross-icon{
+  width: 20px;
+  height: 20px;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  left: 0;
+  top: 0;
+  margin: 10px;
+  color: var(--light);
+  padding: 4px;
+  border-radius: 2px;
+  cursor: pointer;
+  background-color: var(--danger);
+}
+
+.cross-icon:active{
+  background-color: var(--danger-alt);
 }
 
 .box-img-card.wall{
