@@ -1,10 +1,9 @@
 import React, { useEffect, useState } from 'react'
 import News from "./News.json"
 
-export default function Header({link}) {
+export default function Header({link, sets}) {
     const [isOpen, SetOpen] = useState(true);
-    const [isNews, SetLists] = useState(link);
-
+    
     const newsaddHandle = () => {
         const value_img = document.getElementById("img-input").value;
         const value_title = document.getElementById("title-input").value;
@@ -13,14 +12,15 @@ export default function Header({link}) {
 
         // console.log(String(value_tags).split(","))
         let object_compositions = {
-            id: isNews[isNews.length - 1].id + 1,
+            id: link[link.length - 1].id + 1,
             titolo: String(value_title),
             tag: String(value_tags).split(","),
             immagine: String(value_img),
             riassunto: String(value_description)
         }
 
-        SetLists( list => [...list, object_compositions]);
+        console.log(link);
+        sets( list => [...list, object_compositions]);
     };
 
   return (

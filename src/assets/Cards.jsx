@@ -1,20 +1,20 @@
 import React, { useState } from 'react'
 import News from "./News.json"
 
-export default function Cards({list}) {
-    const [isNews, SetCards] = useState(list);
+export default function Cards({list, listsets}) {
+    const export_list = list;
 
-    const handleDeletecCard = (index) =>{
-      const index_card = isNews.filter((_,i) => i !== index);
-      SetCards(index_card);
+    const handleDeleteCard = (index) =>{
+      const index_card = export_list.filter((_,i) => i !== index);
+      listsets(index_card);
     }
 
   return (
       <>
-        {isNews.map( (element, index) => {
+        {export_list.map( (element, index) => {
             return(
               <div className='cards' key={element.id}>
-                <div className='cross-icon d-flex' onClick={() =>{handleDeletecCard(index)}}>
+                <div className='cross-icon d-flex' onClick={() =>{handleDeleteCard(index)}}>
                   <i class="fa-solid fa-xmark"></i>
                 </div>
                 {element.immagine !== "" && element.immagine !== undefined ? <div className='box-img-card d-flex' 

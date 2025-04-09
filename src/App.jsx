@@ -9,9 +9,9 @@ function App() {
   const [isNews, setNews] = useState(News);
   return (
     <>
-    <Header link={isNews}/>
+    <Header link={isNews} sets={setNews}/>
     <div className='container p-4 overflow-box'>
-      <ContentCards link={isNews}/>
+      <ContentCards link={isNews} sets={setNews}/>
     </div>
     </>
   )
