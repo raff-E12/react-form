@@ -1,0 +1,102 @@
+[
+  {
+    "id": 1,
+    "titolo": "Come migliorare la sicurezza della tua rete domestica",
+    "autore": "Luca Bianchi",
+    "data_pubblicazione": "2025-04-01",
+    "tag": ["sicurezza", "rete", "wifi"],
+    "immagine": "https://tse4.mm.bing.net/th?id=OIP.syBCkLaq48qW-lK7xgnRiQHaFT&pid=Api",
+    "riassunto": "Scopri strategie efficaci per proteggere la tua rete domestica da accessi indesiderati.",
+    "contenuto": "In questo articolo vediamo come configurare correttamente il router, usare password robuste e aggiornare il firmware dei dispositivi..."
+  },
+  {
+    "id": 2,
+    "titolo": "Guida completa a IPv6: il futuro dell’indirizzamento",
+    "autore": "Giulia Verdi",
+    "data_pubblicazione": "2025-04-05",
+    "tag": ["IPv6", "reti", "tutorial"],
+    "immagine": "https://tse3.mm.bing.net/th?id=OIP.WqHqUkXnixiiloNF7tk5bAHaE7&pid=Api",
+    "riassunto": "Un’introduzione completa al protocollo IPv6, con esempi e vantaggi rispetto a IPv4.",
+    "contenuto": "Con l’esaurimento degli indirizzi IPv4, IPv6 è diventato fondamentale. Analizziamo la sua struttura, i prefissi e come viene implementato..."
+  },
+  {
+    "id": 3,
+    "titolo": "5 strumenti open source per il monitoraggio della rete",
+    "autore": "Marco Neri",
+    "data_pubblicazione": "2025-04-09",
+    "tag": ["monitoraggio", "opensource", "strumenti"],
+    "immagine": "https://tse3.mm.bing.net/th?id=OIP.S16MwWFznloeMQVbOE-bugHaEp&pid=Api",
+    "riassunto": "Ecco cinque strumenti gratuiti e potenti per tenere sotto controllo la tua infrastruttura di rete.",
+    "contenuto": "Monitorare una rete è essenziale per rilevare anomalie. In questo post presentiamo strumenti come Wireshark, Nagios, Zabbix, Nmap e Icinga..."
+  },
+  {
+    "id": 4,
+    "titolo": "Cos’è un firewall e perché è importante",
+    "autore": "Elena Rossi",
+    "data_pubblicazione": "2025-03-28",
+    "tag": ["firewall", "protezione", "cybersecurity"],
+    "immagine": "https://images.pexels.com/photos/267614/pexels-photo-267614.jpeg",
+    "riassunto": "Scopri come funziona un firewall e perché rappresenta una delle difese più importanti contro le minacce online.",
+    "contenuto": "Un firewall agisce come un filtro tra la rete interna e l’esterno, decidendo quali pacchetti possono entrare o uscire..."
+  },
+  {
+    "id": 5,
+    "titolo": "Come funziona il protocollo TCP/IP",
+    "autore": "Davide Ferri",
+    "data_pubblicazione": "2025-03-25",
+    "tag": ["TCP/IP", "protocolli", "reti"],
+    "immagine": "https://images.pexels.com/photos/325229/pexels-photo-325229.jpeg",
+    "riassunto": "Il protocollo TCP/IP è la base di Internet. Analizziamone le caratteristiche principali e il suo funzionamento.",
+    "contenuto": "Il modello TCP/IP si basa su quattro livelli e permette la comunicazione tra dispositivi in modo affidabile..."
+  },
+  {
+    "id": 6,
+    "titolo": "Crittografia end-to-end: cos'è e perché usarla",
+    "autore": "Chiara Mariani",
+    "data_pubblicazione": "2025-03-22",
+    "tag": ["crittografia", "sicurezza", "privacy"],
+    "immagine": "https://images.pexels.com/photos/5380665/pexels-photo-5380665.jpeg",
+    "riassunto": "Con l'aumento delle minacce informatiche, la crittografia end-to-end è diventata essenziale per proteggere i dati.",
+    "contenuto": "La crittografia end-to-end garantisce che solo il mittente e il destinatario possano leggere i messaggi..."
+  },
+  {
+    "id": 7,
+    "titolo": "Reti wireless: vantaggi e rischi",
+    "autore": "Andrea Galli",
+    "data_pubblicazione": "2025-03-20",
+    "tag": ["wireless", "reti", "wifi"],
+    "immagine": "https://images.pexels.com/photos/267350/pexels-photo-267350.jpeg",
+    "riassunto": "Le reti wireless offrono flessibilità ma presentano anche vulnerabilità. Vediamo quali sono.",
+    "contenuto": "Dalle reti domestiche alle reti aziendali, il Wi-Fi è ovunque. Ma senza protezioni adeguate può diventare una porta d'ingresso per gli attacchi..."
+  },
+  {
+    "id": 8,
+    "titolo": "Introduzione al pentesting",
+    "autore": "Federico Nuzzo",
+    "data_pubblicazione": "2025-03-18",
+    "tag": ["pentest", "hacking etico", "cybersecurity"],
+    "immagine": "https://images.pexels.com/photos/5380599/pexels-photo-5380599.jpeg",
+    "riassunto": "Il penetration testing è fondamentale per individuare le vulnerabilità nei sistemi informatici.",
+    "contenuto": "Un pentester simula un attacco per testare la sicurezza di un sistema. Esploreremo gli strumenti e le tecniche principali..."
+  },
+  {
+    "id": 9,
+    "titolo": "Cloud computing: cos'è e come funziona",
+    "autore": "Sofia Romano",
+    "data_pubblicazione": "2025-03-15",
+    "tag": ["cloud", "informatica", "servizi"],
+    "immagine": "https://images.pexels.com/photos/3861972/pexels-photo-3861972.jpeg",
+    "riassunto": "Il cloud computing ha rivoluzionato il modo in cui archiviamo e accediamo ai dati. Ecco come funziona.",
+    "contenuto": "Con il cloud computing, i dati non sono più legati a un singolo dispositivo. Analizzeremo modelli come IaaS, PaaS e SaaS..."
+  },
+  {
+    "id": 10,
+    "titolo": "I concetti base della sicurezza informatica",
+    "autore": "Martina De Luca",
+    "data_pubblicazione": "2025-03-10",
+    "tag": ["cybersecurity", "basi", "protezione"],
+    "immagine": "https://images.pexels.com/photos/1181244/pexels-photo-1181244.jpeg",
+    "riassunto": "Un’introduzione ai principi fondamentali della sicurezza informatica: confidenzialità, integrità e disponibilità.",
+    "contenuto": "Parleremo del modello CIA, delle minacce comuni e delle contromisure per proteggere i dati in ogni fase..."
+  }
+]
