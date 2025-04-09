@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import News from "./News.json"
 
 export default function Header({link}) {
@@ -22,7 +22,6 @@ export default function Header({link}) {
 
         SetLists( list => [...list, object_compositions]);
     };
-
 
   return (
    <>

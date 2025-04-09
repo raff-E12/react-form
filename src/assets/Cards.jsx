@@ -11,7 +11,7 @@ export default function Cards({list}) {
 
   return (
       <>
-        {isNews.map((element, index) => {
+        {isNews.map( (element, index) => {
             return(
               <div className='cards' key={element.id}>
                 <div className='cross-icon d-flex' onClick={() =>{handleDeletecCard(index)}}>
