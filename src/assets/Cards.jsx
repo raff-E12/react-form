@@ -8,9 +8,8 @@ export default function Cards() {
         {IsNews.map(element => {
             return(
               <div className='cards' key={element.id}>
-                <div className='box-img-card d-flex'>
-                  <h3>News</h3>
-                </div>
+                {element.immagine !== "" && element.immagine !== undefined ? <div className='box-img-card d-flex' 
+                style={{backgroundImage:`url(${element.immagine})`}}></div> : <div className='box-img-card wall d-flex'><h3>News</h3></div>}
                 <div className='text-card d-flex'>
                   <h4>{element.titolo}</h4>
                   <p>{element.riassunto}</p>

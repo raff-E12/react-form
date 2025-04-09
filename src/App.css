@@ -53,15 +53,21 @@
   overflow: hidden;
 }
 
+.box-img-card.wall{
+  background-color: var(--warning);
+  color: var(--light);
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase;
+  text-decoration: underline;
+}
+
 .box-img-card{
   width: auto;
   height: 180px;
-  align-items: center;
-  justify-content: center;
-  background-color: var(--warning);
-  color: var(--light);
-  text-transform: uppercase;
-  text-decoration: underline;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .text-card{
