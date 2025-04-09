@@ -115,6 +115,7 @@ ul, ol{
 .d-block { display: block; }
 .d-inline { display: inline; }
 .d-flex { display: flex; }
+.d-none { display: none; }
 
 /* --------- Borders ---------- */
 .border {
